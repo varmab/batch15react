@@ -4,6 +4,9 @@ import './App.css';
 import Welcome from './Welcome'
 import Counter from './Counter'
 import Friends from './Friends'
+import Todos from './Todos'
+import Like from './Like'
+import Users from './Users'
 
 class App extends React.Component {
   render() {
@@ -11,9 +14,8 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <Welcome name="Varma" password="123456" year={2020}/>
-          <Welcome name="Ram" password="abcdef"/>
         </header>
-        <Friends/>
+        <Users/>
       </div>
     );
   }
