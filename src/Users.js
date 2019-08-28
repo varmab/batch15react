@@ -28,9 +28,8 @@ class Users extends Component {
                 })
             })
     }
-
+    
     render() {
-
         if (this.state.loading == true) {
             return (
                 <div>
